@@ -1,0 +1,26 @@
+It helps to make a code in easy way or with help of ternary operator we can wrtie a 4 code line in one line or rather use of if-else we can use ternary operator.
+it is only for simple conditions .
+we cant not execute many conditions.
+command is :- Condition ? do something if true : do something if false;
+
+for example : write a code if marks >30 pass and fail if marks <=30
+#include<stdio.h>
+int main()
+{
+    int marks;
+    printf("enter marks (0-100)");
+    scanf("%d",&marks);
+
+    /*if (marks>30 && marks<=100){
+        printf("pass");
+    }
+    else if (marks<=30){
+        printf("fail");
+    }
+    else{
+        printf("back");
+    }*/
+
+    marks >=30  ? printf("pass"):printf("fail");
+    
+}
