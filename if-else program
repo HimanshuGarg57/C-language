@@ -1,4 +1,31 @@
-/*if-else nested loop*/
+#Questions:
+1.
+#include<stdio.h>
+int main()
+{
+    int marks;
+    printf("enter marks (0-100)");
+    scanf("%d",&marks);
+
+    if(marks<30){
+        printf("c");
+    }
+    else if(30<=marks<70){
+        printf("b");
+    }
+    else if(70<=marks<90){
+        printf("a");
+    }
+    else if(90<=marks<=100){
+        printf("a+");
+    }
+    else{
+        printf("not valis");
+    }
+}
+
+
+##/*if-else nested loop*/
 
 #include<stdio.h>
 
